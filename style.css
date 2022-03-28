@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	min-width: 1440px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.primary-font {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.hero-section {
+	background-image: url(images/bg-hero-desktop.svg);
+	background-color: hsl(193, 100%, 96%);
+	padding-bottom: 60px;
+}
+
+.main-header {
+	margin: 30px 60px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.header-button {
+	background-color: #ffffff; 
+	color: rgb(0, 0, 0);
+
+	font-family: 'Poppins', sans-serif;
+	font-weight: 550;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+
+	border: none;
+	padding: 15px 50px;
+	border-radius: 20px;
+    padding: 15px 50px;
+
+
+    display: inline-block;
+	transition-duration: 0.3s;
+}
+
+.header-button:hover, .header-button:focus, .header-button:active {
+	box-shadow:  0 0 15px hsl(195, 80%, 86%);
+}
+
+.hero-content {
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	margin: 0px 60px;
+}
+
+.header {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 4em;
+	line-height: 1.2em;
+	padding-top: 100px;
+	color: hsl(192, 100%, 9%);
+}
+
+
+.hero-content-para {
+	max-width: 27em;
+	padding-top: 50px;
+	font-weight: 500;
+	line-height: 1.5em;
+	color: hsl(195, 13%, 37%);
+}
+
+.content-button {
+	background-color: hsl(322, 100%, 66%); 
+	color: rgb(255, 255, 255);
+
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	
+	border: none;
+	padding: 20px 50px;
+	font-size: 16px;
+	border-radius: 20px;
+	font-weight: 600;
+	margin-top: 40px;
+	word-spacing: 2px;
+
+	display: inline-block;
+	transition: background-color 200ms ease-in-out;
+}
+
+.content-button:hover, .content-button:focus {
+	background-color: hsl(322, 100%, 80%);
+}
+
+.hero-img {
+	width: 720px;
+}
